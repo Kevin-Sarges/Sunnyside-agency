@@ -1,11 +1,56 @@
 footer {
-  padding: 2rem 3rem;
+  width: 100%;
+  background: $Ligth-blue;
+  text-align: center;
+
+  .images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  #logo {
+    width: 12rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  .links {
+    margin-bottom: 5rem;
+
+    a {
+      margin: 0 2rem;
+      color: $Dark-desaturated-cyan;
+
+      &:hover {
+        color: $White;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .networks {
+    margin-bottom: 1rem;
+
+    img {
+      margin: 0 1rem;
+
+      &:hover {
+        filter: brightness(20);
+        cursor: pointer;
+      }
+    }
+  }
 
   .attribution {
     font-size: 11px;
     text-align: center;
-  }
-  .attribution a {
-    color: hsl(228, 45%, 44%);
+
+    a {
+      color: hsl(228, 45%, 44%);
+    }
   }
 }

@@ -313,7 +313,54 @@ main .clients .description .perfil .profession {
 }
 
 footer {
-  padding: 2rem 3rem;
+  width: 100%;
+  background: #82d4f8;
+  text-align: center;
+}
+
+footer .images {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+footer .images img {
+  width: 100%;
+}
+
+footer #logo {
+  width: 12rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+footer .links {
+  margin-bottom: 5rem;
+}
+
+footer .links a {
+  margin: 0 2rem;
+  color: #25564b;
+}
+
+footer .links a:hover {
+  color: white;
+  cursor: pointer;
+}
+
+footer .networks {
+  margin-bottom: 1rem;
+}
+
+footer .networks img {
+  margin: 0 1rem;
+}
+
+footer .networks img:hover {
+  -webkit-filter: brightness(20);
+          filter: brightness(20);
+  cursor: pointer;
 }
 
 footer .attribution {
