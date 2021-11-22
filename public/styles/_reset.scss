@@ -27,5 +27,67 @@ html {
       text-decoration: none;
       color: black;
     }
+
+    @media (max-width: 770px) {
+      width: 100%;
+    }
+
+    @media (max-width: 769px) {
+      width: 103%;
+    }
+
+    @media (max-width: 720px) {
+      width: 107%;
+    }
+
+    @media (max-width: 700px) {
+      width: 110%;
+    }
+
+    @media (max-width: 670px) {
+      width: 115%;
+    }
+
+    @media (max-width: 650px) {
+      width: 118%;
+    }
+
+    @media (max-width: 630px) {
+      width: 125%;
+    }
+
+    @media (max-width: 600px) {
+      width: 128%;
+    }
+
+    @media (max-width: 540px) {
+      width: 142%;
+    }
+
+    @media (max-width: 414px) {
+      width: 190%;
+    }
+
+    @media (max-width: 411px) {
+      width: 209%;
+    }
+
+    @media (max-width: 375px) {
+      width: 205%;
+      height: 79%;
+    }
+
+    @media (max-width: 360px) {
+      width: 205%;
+      height: 187%;
+    }
+
+    @media (max-width: 320px) {
+      width: 200%;
+    }
+
+    @media (max-width: 280px) {
+      width: 275%;
+    }
   }
 }

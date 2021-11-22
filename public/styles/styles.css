@@ -33,6 +33,98 @@ html body a {
   color: black;
 }
 
+@media (max-width: 770px) {
+  html body {
+    width: 100%;
+  }
+}
+
+@media (max-width: 769px) {
+  html body {
+    width: 103%;
+  }
+}
+
+@media (max-width: 720px) {
+  html body {
+    width: 107%;
+  }
+}
+
+@media (max-width: 700px) {
+  html body {
+    width: 110%;
+  }
+}
+
+@media (max-width: 670px) {
+  html body {
+    width: 115%;
+  }
+}
+
+@media (max-width: 650px) {
+  html body {
+    width: 118%;
+  }
+}
+
+@media (max-width: 630px) {
+  html body {
+    width: 125%;
+  }
+}
+
+@media (max-width: 600px) {
+  html body {
+    width: 128%;
+  }
+}
+
+@media (max-width: 540px) {
+  html body {
+    width: 142%;
+  }
+}
+
+@media (max-width: 414px) {
+  html body {
+    width: 190%;
+  }
+}
+
+@media (max-width: 411px) {
+  html body {
+    width: 209%;
+  }
+}
+
+@media (max-width: 375px) {
+  html body {
+    width: 205%;
+    height: 79%;
+  }
+}
+
+@media (max-width: 360px) {
+  html body {
+    width: 205%;
+    height: 187%;
+  }
+}
+
+@media (max-width: 320px) {
+  html body {
+    width: 200%;
+  }
+}
+
+@media (max-width: 280px) {
+  html body {
+    width: 275%;
+  }
+}
+
 header {
   width: 100%;
   height: 100vh;
@@ -53,6 +145,10 @@ header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+header nav #menu {
+  visibility: hidden;
 }
 
 header nav ul {
@@ -129,13 +225,143 @@ header #arrow {
   }
 }
 
+@media (max-width: 1024px) {
+  header {
+    background: url(../images/mobile/image-header.jpg) no-repeat center/100%;
+  }
+  header nav img {
+    width: 30%;
+  }
+  header h1 {
+    margin-top: 16rem;
+    font-size: 7rem;
+  }
+  header img {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  header nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  header nav img {
+    width: 35%;
+  }
+  header nav #menu {
+    width: 5rem;
+    visibility: visible;
+  }
+  header nav ul {
+    display: none;
+  }
+}
+
+@media (max-width: 769px) {
+  header h1 {
+    margin-top: 10rem;
+    font-size: 5em;
+  }
+  header #arrow {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 540px) {
+  header {
+    height: 143%;
+  }
+}
+
+@media (max-width: 414px) {
+  header {
+    height: 150%;
+  }
+  header h1 {
+    margin-top: 11rem;
+    font-size: 6rem;
+  }
+  header #arrow {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 411px) {
+  header {
+    height: 150%;
+  }
+  header h1 {
+    margin-top: 11rem;
+    font-size: 6rem;
+  }
+  header #arrow {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 375px) {
+  header {
+    width: 200%;
+    height: 311%;
+  }
+  header h1 {
+    margin-top: 32rem;
+    font-size: 170px;
+  }
+  header #arrow {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 360px) {
+  header {
+    width: 196%;
+    height: 163%;
+  }
+  header h1 {
+    margin-top: 30rem;
+    font-size: 150px;
+  }
+  header #arrow {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 320px) {
+  header h1 {
+    margin-top: 30rem;
+    font-size: 130px;
+  }
+  header #arrow {
+    width: 6rem;
+  }
+}
+
+@media (max-width: 289px) {
+  header {
+    width: 147%;
+    height: 133%;
+  }
+  header h1 {
+    margin-top: 24rem;
+  }
+}
+
 main {
   width: 100%;
 }
 
 main .container {
   width: 100%;
-  height: 30rem;
+  height: 29.2rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,15 +422,22 @@ main .container .details #link-red:hover {
 }
 
 main .container #image01 {
-  width: 110%;
+  width: 93rem;
   height: 100%;
   background: url(../images/desktop/image-transform.jpg) no-repeat center/100%;
 }
 
 main .container #image02 {
-  width: 106%;
+  width: 89rem;
   height: 100%;
   background: url(../images/desktop/image-stand-out.jpg) no-repeat center/100%;
+}
+
+main #containerAudience {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 main .professions {
@@ -234,12 +467,12 @@ main .professions .content h3 {
 }
 
 main .professions #profession01 {
-  background: url(../images/desktop/image-graphic-design.jpg) no-repeat;
+  background: url(../images/desktop/image-graphic-design.jpg) no-repeat center/100%;
   color: #25564b;
 }
 
 main .professions #profession02 {
-  background: url(../images/desktop/image-photography.jpg) no-repeat;
+  background: url(../images/desktop/image-photography.jpg) no-repeat center/100%;
   color: #19536b;
 }
 
@@ -310,6 +543,82 @@ main .clients .description .perfil b {
 main .clients .description .perfil .profession {
   font-size: 15px;
   color: #a7abae;
+}
+
+@media (max-width: 375px) {
+  main {
+    width: 200%;
+    font-size: 72px;
+    text-align: center;
+  }
+  main .container {
+    height: 166rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  main .container .details {
+    padding: 16rem 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  main .container .details h3 {
+    margin-left: 0;
+    text-align: center;
+    font-size: 120px;
+    font-weight: 900;
+  }
+  main .container .details a {
+    margin-left: 0;
+  }
+  main .container #image01 {
+    width: 96rem;
+    background: url(../images/mobile/image-transform.jpg) no-repeat center/100%;
+  }
+  main .container #image02 {
+    width: 96rem;
+    background: url(../images/mobile/image-stand-out.jpg) no-repeat center/100%;
+  }
+  main #containerAudience {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  main .professions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .professions #profession01 {
+    width: 100%;
+    height: 100%;
+    padding: 97rem 2rem 10rem 2rem;
+    background: url(../images/mobile/image-graphic-design.jpg) no-repeat center/100%;
+    color: #25564b;
+  }
+  main .professions #profession02 {
+    width: 100%;
+    height: 100%;
+    padding: 97rem 2rem 10rem 2rem;
+    background: url(../images/mobile/image-photography.jpg) no-repeat center/100%;
+    color: #19536b;
+  }
 }
 
 footer {

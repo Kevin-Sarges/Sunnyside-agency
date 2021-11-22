@@ -8,10 +8,13 @@ header {
 
   nav {
     width: 100%;
-
     display: flex;
     align-items: center;
     justify-content: space-between;
+
+    #menu {
+      visibility: hidden;
+    }
 
     ul {
       display: flex;
@@ -65,6 +68,135 @@ header {
       to {
         transform: translateY(0);
       }
+    }
+  }
+
+  @media (max-width: 1024px) {
+    background: url(../images/mobile/image-header.jpg) no-repeat center/100%;
+
+    nav {
+      img {
+        width: 30%;
+      }
+    }
+
+    h1 {
+      margin-top: 16rem;
+      font-size: 7rem;
+    }
+
+    img {
+      width: 6rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      img {
+        width: 35%;
+      }
+
+      #menu {
+        width: 5rem;
+        visibility: visible;
+      }
+
+      ul {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width: 769px) {
+    h1 {
+      margin-top: 10rem;
+      font-size: 5em;
+    }
+
+    #arrow {
+      width: 4rem;
+    }
+  }
+
+  @media (max-width: 540px) {
+    height: 143%;
+  }
+
+  @media (max-width: 414px) {
+    height: 150%;
+
+    h1 {
+      margin-top: 11rem;
+      font-size: 6rem;
+    }
+
+    #arrow {
+      width: 4rem;
+    }
+  }
+
+  @media (max-width: 411px) {
+    height: 150%;
+
+    h1 {
+      margin-top: 11rem;
+      font-size: 6rem;
+    }
+
+    #arrow {
+      width: 4rem;
+    }
+  }
+
+  @media (max-width: 375px) {
+    width: 200%;
+    height: 311%;
+
+    h1 {
+      margin-top: 32rem;
+      font-size: 170px;
+    }
+
+    #arrow {
+      width: 8rem;
+    }
+  }
+
+  @media (max-width: 360px) {
+    width: 196%;
+    height: 163%;
+
+    h1 {
+      margin-top: 30rem;
+      font-size: 150px;
+    }
+
+    #arrow {
+      width: 8rem;
+    }
+  }
+
+  @media (max-width: 320px) {
+    h1 {
+      margin-top: 30rem;
+      font-size: 130px;
+    }
+
+    #arrow {
+      width: 6rem;
+    }
+  }
+
+  @media (max-width: 289px) {
+    width: 147%;
+    height: 133%;
+
+    h1 {
+      margin-top: 24rem;
     }
   }
 }

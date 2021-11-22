@@ -3,7 +3,7 @@ main {
 
   .container {
     width: 100%;
-    height: 30rem;
+    height: 29.2rem;
     display: flex;
 
     .details {
@@ -50,18 +50,22 @@ main {
     }
 
     #image01 {
-      width: 110%;
+      width: 93rem;
       height: 100%;
       background: url(../images/desktop/image-transform.jpg) no-repeat
         center/100%;
     }
 
     #image02 {
-      width: 106%;
+      width: 89rem;
       height: 100%;
       background: url(../images/desktop/image-stand-out.jpg) no-repeat
         center/100%;
     }
+  }
+
+  #containerAudience {
+    flex-direction: row-reverse;
   }
 
   .professions {
@@ -84,12 +88,14 @@ main {
     }
 
     #profession01 {
-      background: url(../images/desktop/image-graphic-design.jpg) no-repeat;
+      background: url(../images/desktop/image-graphic-design.jpg) no-repeat
+        center/100%;
       color: $Dark-desaturated-cyan;
     }
 
     #profession02 {
-      background: url(../images/desktop/image-photography.jpg) no-repeat;
+      background: url(../images/desktop/image-photography.jpg) no-repeat
+        center/100%;
       color: $Dark-blue;
     }
   }
@@ -146,5 +152,92 @@ main {
         }
       }
     }
+  }
+
+  @media (max-width: 540px) {
+  }
+
+  @media (max-width: 414px) {
+  }
+
+  @media (max-width: 411px) {
+  }
+
+  @media (max-width: 375px) {
+    width: 200%;
+    font-size: 72px;
+    text-align: center;
+
+    .container {
+      height: 166rem;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: center;
+
+      .details {
+        padding: 16rem 0;
+        align-items: center;
+
+        h3 {
+          margin-left: 0;
+          text-align: center;
+          font-size: 120px;
+          font-weight: 900;
+        }
+
+        a {
+          margin-left: 0;
+        }
+      }
+
+      #image01 {
+        width: 96rem;
+        background: url(../images/mobile/image-transform.jpg) no-repeat
+          center/100%;
+      }
+
+      #image02 {
+        width: 96rem;
+        background: url(../images/mobile/image-stand-out.jpg) no-repeat
+          center/100%;
+      }
+    }
+
+    #containerAudience {
+      flex-direction: column-reverse;
+    }
+
+    .professions {
+      display: flex;
+      flex-direction: column;
+
+      #profession01 {
+        width: 100%;
+        height: 100%;
+        padding: 97rem 2rem 10rem 2rem;
+        background: url(../images/mobile/image-graphic-design.jpg) no-repeat
+          center/100%;
+        color: $Dark-desaturated-cyan;
+      }
+
+      #profession02 {
+        width: 100%;
+        height: 100%;
+        padding: 97rem 2rem 10rem 2rem;
+        background: url(../images/mobile/image-photography.jpg) no-repeat
+          center/100%;
+        color: $Dark-blue;
+      }
+    }
+  }
+
+  @media (max-width: 360px) {
+  }
+
+  @media (max-width: 320px) {
+  }
+
+  @media (max-width: 289px) {
   }
 }
