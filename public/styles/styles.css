@@ -98,6 +98,7 @@ header nav ul li #contact:hover {
 header h1 {
   font-size: 40px;
   margin-top: 7rem;
+  letter-spacing: 6px;
 }
 
 header #arrow {
@@ -129,7 +130,186 @@ header #arrow {
 }
 
 main {
-  padding: 2rem 3rem;
+  width: 100%;
+}
+
+main .container {
+  width: 100%;
+  height: 30rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .container .details {
+  padding: 7rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .container .details h3 {
+  width: 65%;
+  margin-left: 6.5rem;
+  text-align: left;
+  font-size: 40px;
+  color: #23303e;
+}
+
+main .container .details p {
+  padding: 2rem 6.5rem;
+  color: #5a636c;
+}
+
+main .container .details a {
+  margin-left: 6.5rem;
+  font-family: "Fraunces", serif;
+}
+
+main .container .details #link-yellow {
+  -webkit-text-decoration: underline 2px #fad400;
+          text-decoration: underline 2px #fad400;
+  color: #23303e;
+}
+
+main .container .details #link-yellow:hover {
+  -webkit-text-decoration: underline 5px #fad400;
+          text-decoration: underline 5px #fad400;
+}
+
+main .container .details #link-red {
+  -webkit-text-decoration: underline 2px #fe7867;
+          text-decoration: underline 2px #fe7867;
+  color: #23303e;
+}
+
+main .container .details #link-red:hover {
+  -webkit-text-decoration: underline 5px #fe7867;
+          text-decoration: underline 5px #fe7867;
+}
+
+main .container #image01 {
+  width: 110%;
+  height: 100%;
+  background: url(../images/desktop/image-transform.jpg) no-repeat center/100%;
+}
+
+main .container #image02 {
+  width: 106%;
+  height: 100%;
+  background: url(../images/desktop/image-stand-out.jpg) no-repeat center/100%;
+}
+
+main .professions {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .professions .content {
+  width: 50%;
+  height: 35rem;
+  padding: 3rem 9rem;
+  text-align: center;
+}
+
+main .professions .content h3 {
+  margin-top: 20rem;
+  margin-bottom: 2rem;
+  font-size: 35px;
+}
+
+main .professions #profession01 {
+  background: url(../images/desktop/image-graphic-design.jpg) no-repeat;
+  color: #25564b;
+}
+
+main .professions #profession02 {
+  background: url(../images/desktop/image-photography.jpg) no-repeat;
+  color: #19536b;
+}
+
+main .clients {
+  width: 100%;
+  margin-bottom: 5rem;
+  padding: 12rem 7rem;
+}
+
+main .clients h4 {
+  margin-bottom: 5rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 25px;
+  color: #a7abae;
+}
+
+main .clients .description {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .clients .description .perfil {
+  height: 10rem;
+  margin: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .clients .description .perfil img {
+  width: 4rem;
+  margin-bottom: 3rem;
+  border-radius: 99px;
+}
+
+main .clients .description .perfil p {
+  text-align: center;
+  color: #5a636c;
+}
+
+main .clients .description .perfil b {
+  margin-top: 5rem;
+  font-family: "Fraunces", serif;
+  font-weight: 900;
+  color: #23303e;
+}
+
+main .clients .description .perfil .profession {
+  font-size: 15px;
+  color: #a7abae;
 }
 
 footer {
