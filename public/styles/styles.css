@@ -127,7 +127,7 @@ html body a {
 
 header {
   width: 100%;
-  height: 100vh;
+  height: 80%;
   padding: 2rem 3rem;
   background: url(../images/desktop/image-header.jpg) no-repeat center/100%;
   color: white;
